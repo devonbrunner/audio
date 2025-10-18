@@ -16,7 +16,7 @@ from faster_whisper import WhisperModel
 # ---------- CONFIG ----------
 INPUT_DIR = Path("audio")         # Folder containing .mp3/.wav/.m4a files
 OUTPUT_DIR = Path("outputs")      # Folder where .txt transcripts will be saved
-MODEL_NAME = "base"               # Change to "small" or "medium" for better accuracy
+MODEL_NAME = "small"               # Change to "small" or "medium" for better accuracy
 LANGUAGE = "en"                   # or None for auto-detect
 DELETE_SOURCE_AFTER = True        # Delete .mp3 after transcription
 # -----------------------------
